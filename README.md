@@ -8,5 +8,7 @@ WebGL build hosted on https://misabiko.github.io/GithubPagesURP/
 Changes from template
 - Added a cube to the scene
 - Switched build platform to WebGL
-- Unchecked "Auto Graphics API" in Player Settings
-- Removed "WebGL 1 (Deprecated)" from Graphics APIs
+- In Player Settings
+  - Unchecked "Auto Graphics API"
+  - Removed "WebGL 1 (Deprecated)" from Graphics APIs
+  - Check "Decompression Fallback"
