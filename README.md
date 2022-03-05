@@ -11,4 +11,11 @@ Changes from template
 - In Player Settings
   - Unchecked "Auto Graphics API"
   - Removed "WebGL 1 (Deprecated)" from Graphics APIs
-  - Check "Decompression Fallback"
+
+Tried
+- Checking "Decompression Fallback"
+  - Internal-ErrorShader.shader is not found
+- Not checking fallback but adding web.config to Build/
+  - Looks like Github Pages doesn't load web.config, js.rs is still read as application/octet-stream
+- Disabling compression all together
+  - Internal-ErrorShader.shader is still not found
